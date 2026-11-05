@@ -1,0 +1,27 @@
+{
+	"name": "arkenforge-osc",
+	"version": "1.4.0",
+	"main": "main.js",
+	"scripts": {
+		"test": "node tests.js",
+		"format": "prettier -w .",
+		"build": "yarn companion-module-build --dev",
+		"package": "node tests.js && yarn companion-module-build"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ShiruOden/companion-module-arkenforge-osc.git"
+	},
+	"engines": {
+		"node": ">=22.18.0"
+	},
+	"dependencies": {
+		"@companion-module/base": "1.13.6",
+		"osc": "^2.4.5"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^2.8.0",
+		"prettier": "^3.7.4"
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"id": "arkenforge-osc",
+	"name": "arkenforge-osc",
+	"shortname": "arkenforge",
+	"description": "Controls Arkenforge via OSC: all hotkeys, SFX, ambience and music",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/ShiruOden/companion-module-arkenforge-osc.git",
+	"bugs": "https://github.com/ShiruOden/companion-module-arkenforge-osc/issues",
+	"maintainers": [
+		{
+			"name": "Silvan",
+			"email": "silvan.rey19@gmail.com"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js",
+		"permissions": {
+			"filesystem": true
+		}
+	},
+	"legacyIds": [],
+	"manufacturer": "Arkenforge",
+	"products": [
+		"Arkenforge"
+	],
+	"keywords": [
+		"Software",
+		"Games",
+		"OSC"
+	]
+}
